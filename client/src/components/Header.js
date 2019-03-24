@@ -3,19 +3,22 @@ import {Link} from "react-router-dom";
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-info">
-      <a className="navbar-brand" href="#">J P A U L I N O</a>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark text-center d-block">
+      <a className="navbar-brand ml-sm-auto" href="#">Oney Paulino</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
-      <div className="navbar-nav ml-auto">
-        <Link className="nav-item nav-link ml-auto" to="/">Home <span className="sr-only">(current)</span></Link>   
-        <Link className="nav-item nav-link ml-auto" to="/career">Career <span className="sr-only">(current)</span></Link>   
+    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div className="navbar-nav mx-auto">
+        <Link className="nav-item nav-link" to="/"> Artista <span className="sr-only">(current)</span></Link>   
+        <Link className="nav-item nav-link" to="/musicos"> Musicos <span className="sr-only">(current)</span></Link>
+        <Link className="nav-item nav-link" to="/contacto"> Musicos <span className="sr-only">(current)</span></Link>      
       </div>
   </div>
 </nav>   
   );
 }
+
+//
 
 export default Header;

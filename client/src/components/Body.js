@@ -9,9 +9,9 @@ class Body extends Component {
     return (     
        <div className="container">    
          <Profile />
-        <Skills />
-        <Experience />
-        <Projects/>
+         <Skills />
+         <Experience />
+         <Projects/>
       </div>
     );
   }
