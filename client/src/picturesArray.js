@@ -1,11 +1,11 @@
 module.exports = {
     mypics = [
-        "https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics1.JPG", "https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics2.JPG",
-        "https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics3.JPG", "https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics4.JPG",
-        "https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics5.JPG", "https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics6.JPG",
-        "https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics7.JPG", "https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics8.JPG",
-        "https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics9.JPG", "https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics10.JPG",
-        "https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics11.JPG", "https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics12.JPG",
-        "https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics13.JPG"
+        "https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics1small.jpg", "https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics2small.jpg",
+        "https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics3small.jpg", "https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics4small.jpg",
+        "https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics5small.jpg", "https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics6small.jpg",
+        "https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics7small.jpg", "https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics8small.jpg",
+        "https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics9small.jpg", "https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics10small.jpg",
+        "https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics11small.jpg", "https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics11smal2.jpg",
+        "https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics11smal3.jpg"
       ]
 }

@@ -37,23 +37,23 @@ class Landing extends Component {
           <div className="row text-center">
             <Slider className="col" {...settings}>
               <div className="cover" >
-                <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics${rand}.JPG`}></img>
+                <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics${rand}small.jpg`}></img>
               </div>
 
               <div className="cover" >
-                <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics${rand2}.JPG`}></img>
+                <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics${rand2}small.jpg`}></img>
               </div>
 
               <div className="cover" >
-                <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics${rand3}.JPG`}></img>
+                <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics${rand3}small.jpg`}></img>
               </div>
 
               <div className="cover" >
-                <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics${rand4}.JPG`}></img>
+                <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics${rand4}small.jpg`}></img>
               </div>
 
               <div className="cover" >
-                <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-pics${rand5}.JPG`}></img>
+                <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics${rand5}small.jpg`}></img>
               </div>
             
             </Slider> 
