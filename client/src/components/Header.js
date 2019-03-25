@@ -11,8 +11,8 @@ function Header() {
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav mx-auto">
         <Link className="nav-item nav-link" to="/"> Artista <span className="sr-only">(current)</span></Link>   
-        <Link className="nav-item nav-link" to="/musicos"> Musicos <span className="sr-only">(current)</span></Link>
-        <Link className="nav-item nav-link" to="/contacto"> Musicos <span className="sr-only">(current)</span></Link>      
+        <Link className="nav-item nav-link" to="/integrantes"> Integrantes <span className="sr-only">(current)</span></Link>
+        {/* <Link className="nav-item nav-link" to="/contacto"> Musicos <span className="sr-only">(current)</span></Link>       */}
       </div>
   </div>
 </nav>   

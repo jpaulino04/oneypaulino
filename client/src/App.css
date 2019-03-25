@@ -3,6 +3,23 @@ body {
   /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
 }
 
+.cover{
+  max-width: 850px;
+  position: relative;
+  height: 500px;
+  margin: 0 auto;
+  background: rgba(20, 20, 20, 0.4);
+}
+
+.showcase{
+  width: 100%;  
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;  
+  position: absolute;
+}
+
 .text-muted {
   font-size: 1.5em;
 }
@@ -11,10 +28,17 @@ body {
   list-style-type: none;
 }
 
-.more h4 {
+.h4 {
+  font-size: 2.2em;
+}
+.integrantes-text{
   font-size: 1.8em;
 }
 
+.picture {
+  max-width: 250px;
+  height: 250px;
+}
 .more ul {
   font-size: 1.2em;
 }
@@ -49,10 +73,17 @@ body {
   min-height: 600px;
 } */
 
-/* @media only screen and (max-width: 1000px) {
-  .images{
-    margin-top: 10px;
-    width: auto;
-    min-height: 200px;
+@media only screen and (max-width: 500px) {
+  .cover{
+    max-width: 850px;
+    position: relative;
+    height: 300px;
+    margin: 0 auto;
+    background: rgba(20, 20, 20, 0.4);
   }
-} */
+
+  .integrantes-text{
+    font-size: 1.0em;
+  }
+  
+}
