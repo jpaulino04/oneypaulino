@@ -15,7 +15,7 @@ function Integrantes() {
             </div>
 
             <div className="card my-4 mx-auto border border py-4" style={{maxWidth: "40rem"}}> 
-                <img className="card-img-top img-thumbnail rounded-circle picture mx-auto"  src="https://s3.amazonaws.com/oneypaulino-rsized/alexsmall.jpg"></img>
+                <img className="card-img-top img-thumbnail rounded-circle picture mx-auto"  src="https://s3.amazonaws.com/oneypaulino-rsized/alex3small.jpg"></img>
                 <div className="card-body">
                     <h2 className="card-title">Alex</h2>
                     <p className="card-text py-0">Con cuatro cuerdas te pone a mover la cabeza. Ademas de su agilidad con el bajo, también toca muy bien la guitarra y es arreglista de todas las canciones.</p>
