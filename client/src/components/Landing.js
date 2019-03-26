@@ -17,10 +17,8 @@ class Landing extends Component {
       };
 
       return (
-        <div className="row col">
-            <iframe className="mx-auto" width="620" height="420" 
-                src="https://s3.amazonaws.com/oneypaulino-archivos/oneypaulino-vids3.MOV">
-
+        <div className="row col">            
+            <iframe className="mx-auto" width="620" height="420" src="https://www.youtube.com/embed/esDigDrvIwk" frameborder="0" allow="accelerometer;   autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
         </div>
       )
