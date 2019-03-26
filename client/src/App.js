@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import Slider from "./components/Slider";
+import Slides from "./components/Slider";
+import Landing from "./components/Landing";
 import Integrantes from "./components/Integrantes";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -15,7 +16,8 @@ class App extends Component {
         <Header />
         <div className="container-fluid no-gutters p-0">
           <Switch>
-            <Route exact path="/" component={Slider} />  
+            <Route exact path="/" component={Landing} />  
+            <Route exact path="/imagenes" component={Slides} />
             <Route exact path="/integrantes" component={Integrantes} />                    
           </Switch>
  

@@ -6,7 +6,7 @@ function Integrantes() {
         <div className="integrantes-text p-4 text-center">
             
             <div className="card my-4 mx-auto border border py-4" style={{maxWidth: "40rem"}}> 
-                <img className="card-img-top img-thumbnail rounded-circle picture mx-auto"  src="https://s3.amazonaws.com/oneypaulino-rsized/pedrosmall.jpg"></img>
+                <img className="card-img-top img-thumbnail rounded-circle picture mx-auto"  src="https://s3.amazonaws.com/oneypaulino-rsized/pedro2small.jpg"></img>
                 <div className="card-body py-0">
                     <h2 className="card-title">Pedro</h2>
                     <p className="card-text py-0 my-0">Este muchacho no tiene compasión del piano. Pedro desliza sus 10 dedos sobre las teclas y crea una melodía armónica e irresistible.</p>

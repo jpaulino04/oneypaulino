@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Slider from "react-slick";
+import Slides from "react-slick";
 import Fade from 'react-reveal/Fade';
 import "../../node_modules/slick-carousel/slick/slick.css"
 import "../../node_modules/slick-carousel/slick/slick-theme.css"
@@ -11,7 +11,7 @@ import {phrases} from "./quotes/quotes";
 var myPictures = "./picturesArray"
 
 
-class Landing extends Component {
+class Slider extends Component {
   constructor(props){
     super(props)
     this.state = {} 
@@ -35,7 +35,7 @@ class Landing extends Component {
 
     return (    
           <div className="row text-center">
-            <Slider className="col" {...settings}>
+            <Slides className="col" {...settings}>
               <div className="cover" >
                 <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics${rand}small.jpg`}></img>
               </div>
@@ -56,10 +56,10 @@ class Landing extends Component {
                 <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics${rand5}small.jpg`}></img>
               </div>
             
-            </Slider> 
+            </Slides>
           </div>
     )
   }
 }
 
-export default Landing;
+export default Slider;
