@@ -14,7 +14,7 @@ class App extends Component {
       <Router>
         <div>
         <Header />
-        <div className="container-fluid no-gutters p-0">
+        <div className="container-fluid no-gutters p-0 m-0">
           <Switch>
             <Route exact path="/" component={Landing} />  
             <Route exact path="/imagenes" component={Slides} />

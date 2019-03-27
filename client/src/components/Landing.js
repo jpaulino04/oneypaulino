@@ -17,8 +17,8 @@ class Landing extends Component {
       };
 
       return (
-        <div className="row col">            
-            <iframe className="mx-auto" width="620" height="420" src="https://www.youtube.com/embed/esDigDrvIwk" frameborder="0" allow="accelerometer;   autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        <div className="row col m-0">            
+            <iframe className="mx-auto"  width="620" height="420" src="https://www.youtube.com/embed/esDigDrvIwk" frameborder="0" allow="accelerometer;   autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
         </div>
       )
