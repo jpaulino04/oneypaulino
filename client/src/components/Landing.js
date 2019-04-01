@@ -18,11 +18,29 @@ class Landing extends Component {
       };
 
       return (
-
-        <div className="row col m-0">
-            <iframe className="mx-auto"  width="620" height="420" src="https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-vids4-conveted.mp4" frameborder="0" allow="accelerometer;   autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
+        <React.Fragment>
+        <div className="row mx-0 mt-4 col-12">
+          <iframe className="mx-auto d-block" width="620" height="420" src="https://www.youtube.com/embed/esDigDrvIwk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen>
+          </iframe>
         </div>
+
+        <div className="row mx-auto mt-2 col-12">
+          <h4 className="d-4 mx-auto">@Follow:</h4>
+        </div>
+        
+        <div className="row m-0 pb-2 col-12">          
+          <div className="mx-auto">
+            <a className="mx-2 my-4" href="https://www.instagram.com/oneypaulino/" target="_blank">
+              <i className="fab fa-instagram my-icons"></i>
+            </a>
+            <a className="mx-2 my-4" href="https://nb-no.facebook.com/pg/oneylacasa112/posts/" target="_blank">
+              <i className="fab fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+
+
+        </React.Fragment>
       )
 
     }
