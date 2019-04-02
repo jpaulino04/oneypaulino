@@ -12,6 +12,7 @@ function Header() {
       <div className="navbar-nav mx-auto">
         <Link className="nav-item nav-link" to="/"> Inicio <span className="sr-only">(current)</span></Link>   
         <Link className="nav-item nav-link" to="/imagenes"> Imagenes <span className="sr-only">(current)</span></Link>  
+        <Link className="nav-item nav-link" to="/playlist"> Playlist <span className="sr-only">(current)</span></Link>   
         <Link className="nav-item nav-link" to="/integrantes"> Integrantes <span className="sr-only">(current)</span></Link>            
       </div>
   </div>

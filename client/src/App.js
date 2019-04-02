@@ -7,6 +7,7 @@ import Integrantes from "./components/Integrantes";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./App.css";
+import Playlist from "./components/Playlist";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Landing} />  
             <Route exact path="/imagenes" component={Slides} />
+            <Route exact path="/playlist" component={Playlist} />
             <Route exact path="/integrantes" component={Integrantes} />                    
           </Switch>
  
