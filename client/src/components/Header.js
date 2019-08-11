@@ -13,7 +13,8 @@ function Header() {
         <Link className="nav-item nav-link" to="/"> Inicio <span className="sr-only">(current)</span></Link>   
         <Link className="nav-item nav-link" to="/images"> Imagenes <span className="sr-only">(current)</span></Link>  
         <Link className="nav-item nav-link" to="/playlist"> Playlist <span className="sr-only">(current)</span></Link>   
-        <Link className="nav-item nav-link" to="/integrantes"> Integrantes <span className="sr-only">(current)</span></Link>            
+        <Link className="nav-item nav-link" to="/Integrantes"> Integrantes <span className="sr-only">(current)</span></Link>
+        <Link className="nav-item nav-link" to="/Contacto"> Contacto <span className="sr-only">(current)</span></Link>            
       </div>
   </div>
 </nav>   

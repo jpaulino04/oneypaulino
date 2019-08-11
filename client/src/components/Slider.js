@@ -8,7 +8,12 @@ import {phrases} from "./quotes/quotes";
 
 
 // images
-var myPictures = "./picturesArray"
+// var myPictures = "./picturesArray"
+import oneyp2 from "./img/oneyp2resized.jpg"
+import lacasa2 from "./img/lacasa2resized.jpg"
+import lacasaalex from "./img/lacasaalexresized.jpg"
+import lacasaoney from "./img/lacasaoneyresized.jpg"
+import lacasaosiris from "./img/lacasaosirisresized.jpg"
 
 
 class Slider extends Component {
@@ -37,23 +42,23 @@ class Slider extends Component {
           <div className="row text-center">
             <Slides className="col" {...settings}>
               <div className="cover" >
-                <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics${rand}small.jpg`}></img>
+                <img className="img-fluid showcase mx-auto border rounded" src={`${oneyp2}`}></img>
               </div>
 
               <div className="cover" >
-                <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics${rand2}small.jpg`}></img>
+                <img className="img-fluid showcase mx-auto border rounded" src={`${lacasa2}`}></img>
               </div>
 
               <div className="cover" >
-                <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics${rand3}small.jpg`}></img>
+                <img className="img-fluid showcase mx-auto border rounded" src={`${lacasaalex}`}></img>
               </div>
 
               <div className="cover" >
-                <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics${rand4}small.jpg`}></img>
+                <img className="img-fluid showcase mx-auto border rounded" src={`${lacasaoney}`}></img>
               </div>
 
               <div className="cover" >
-                <img className="img-fluid showcase mx-auto border rounded" src={`https://s3.amazonaws.com/oneypaulino-rsized/oneypaulino-pics${rand5}small.jpg`}></img>
+                <img className="img-fluid showcase mx-auto border rounded" src={`${lacasaosiris}`}></img>
               </div>
             
             </Slides>
