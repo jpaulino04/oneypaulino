@@ -14,7 +14,7 @@ function Contacto() {
 
         <div className="integrantes-text p-4 text-center row">
             <div className="col-12 h5 text-info">oneylacasa112@gmail.com</div>
-            <div className="col-12 h5 text-info"><i className="fab fa-instagram inst-contacto"></i> @oneypaulino</div>
+            <div className="col-12 h5 text-info"><a href="https://www.instagram.com/oneypaulino/" target="_blank"><i className="fab fa-instagram inst-contacto"></i></a> @oneypaulino</div>
             <div className="card my-4 mx-auto border border py-4 col-md-4" style={{maxWidth: "40rem"}}> 
                 <img className="card-img-top img-thumbnail rounded-circle picture mx-auto"  src={`${vitico}`}></img>                
                 <div className="card-body">
