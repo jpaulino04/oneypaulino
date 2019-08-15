@@ -14,7 +14,7 @@ export default function Accordion() {
                     </div>
                     <div id="collapseOne" className="collapse" data-parent="#accordion">
                         <div className="card-body text-center text-muted-accordion">
-                        Oney Paulino, mas que un artista, es un projecto con una visión innovadora. La Casa 112 se refiere a nuestra agrupación. El termino 'La Casa' nos emotiva por que nos hace pensar que somos una familia. 
+                        Oney Paulino, mas que un artista, es un projecto con una visión innovadora. La Casa 112 se refiere a nuestra agrupación. El termino 'La Casa' nos emotiva por que nos recuerda que somos una familia. 
                         </div>
                     </div>
                     </div>  
