@@ -42,6 +42,11 @@ body {
   font-size: 1.5em;  
 }
 
+.text-muted-accordion{
+  font-size: 1.3em; 
+  color: #6c757d!important;  
+}
+
 .list-item {
   list-style-type: none;
 }
