@@ -39,7 +39,7 @@ class Slider extends Component {
     var myheight = window.innerHeight;
 
     return (    
-          <div className="row text-center">
+          <div className="row text-center mt-2">
             <Slides className="col" {...settings}>
               <div className="cover" >
                 <img className="img-fluid showcase mx-auto border rounded" src={`${oneyp2}`}></img>
