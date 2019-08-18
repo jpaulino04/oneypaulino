@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Accordion from "./Accordion";
 
 class Landing extends Component {
     constructor(props){
@@ -19,6 +20,7 @@ class Landing extends Component {
 
       return (
         <React.Fragment>
+        <Accordion />
         <div className="row mx-0 mt-4 col-12">
           <iframe className="mx-auto d-block" width="620" height="420" src="https://www.youtube.com/embed/pOQszYIKtp0" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen="true">
           </iframe>

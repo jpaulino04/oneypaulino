@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import {Router, Switch, Route} from "react-router-dom";
 import history from './history';
 
-import Accordion from "./components/Accordion";
 import Contacto from "./components/Contacto";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -20,7 +19,6 @@ class App extends Component {
       <Router history={history}>
         <div>
         <Header />
-        <Accordion />
         <div className="container-fluid no-gutters p-0 m-0">
           <Switch>
             <Route exact path="/" component={Landing} />  
@@ -33,7 +31,6 @@ class App extends Component {
         </div>
         <Footer />
         </div>
-        
       </Router>
     );
   }
