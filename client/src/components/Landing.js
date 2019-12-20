@@ -35,7 +35,7 @@ class Landing extends Component {
             <a className="mx-2 my-4" href="https://www.instagram.com/oneypaulino/" target="_blank">
               <i className="fab fa-instagram my-icons"></i>
             </a>
-            <a className="mx-2 my-4" href="https://nb-no.facebook.com/pg/oneylacasa112/posts/" target="_blank">
+            <a className="mx-2 my-4" href="https://www.facebook.com/oneypaulino112/" target="_blank">
               <i className="fab fa-facebook-f"></i>
             </a>
           </div>
