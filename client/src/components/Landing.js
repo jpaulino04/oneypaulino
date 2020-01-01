@@ -30,7 +30,7 @@ class Landing extends Component {
 
         <div className="row mx-0 mt-0 col-12 mb-4 pb-2">          
           <iframe 
-            className="mx-auto d-block mb-4 text-center" width="620" height="315" src="https://www.youtube.com/embed/uzP1QQEsOS4?autoplay=1" 
+            className="mx-auto d-block mb-4 text-center" width="620" height="315" src="https://www.youtube.com/embed/uzP1QQEsOS4" 
             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen="true"
           >
           </iframe>
