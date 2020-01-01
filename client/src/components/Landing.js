@@ -30,7 +30,9 @@ class Landing extends Component {
 
         <div className="row mx-0 mt-0 col-12 mb-4 pb-2">          
           <iframe 
-            className="mx-auto d-block mb-4 text-center" width="620" height="315" src="https://www.youtube.com/embed/uzP1QQEsOS4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen="true">
+            className="mx-auto d-block mb-4 text-center" width="620" height="315" src="https://www.youtube.com/embed/uzP1QQEsOS4?autoplay=1" 
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen="true"
+          >
           </iframe>
         </div>
         
@@ -40,7 +42,7 @@ class Landing extends Component {
         
         <div className="row mx-0 col-12">          
           <iframe 
-            className="mx-auto d-block mb-4" width="620" height="315" src="https://www.youtube.com/embed/LfCi4u26HHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen="true">
+            className="mx-auto d-block mb-4" width="620" height="315" src="https://www.youtube.com/embed?listType=playlist&list=PLWme-k7nWuTr6OJWFt1BvDaA8PXo6pEbQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen="true">
           </iframe>
         </div>
 
