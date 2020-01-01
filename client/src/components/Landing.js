@@ -20,9 +20,39 @@ class Landing extends Component {
 
       return (
         <React.Fragment>
+          
         <Accordion />
-        <div className="row mx-0 mt-4 col-12">
-          <iframe className="mx-auto d-block" width="620" height="420" src="https://www.youtube.com/embed/pOQszYIKtp0" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen="true">
+
+        <div className="row col-sm-8 mt-4 mb-0 pb-0 mx-auto text-center">
+          <p className="d-block mx-auto text-muted">
+            <span className="text-warning"><b>Lo Nuevo 2020</b></span>, <u><a className="text-dark " href="https://www.youtube.com/embed/uzP1QQEsOS4">No Creo en Cupido!</a></u></p>
+        </div>
+
+        <div className="row mx-0 mt-0 col-12 mb-4 pb-2">          
+          <iframe 
+            className="mx-auto d-block mb-4 text-center" width="620" height="315" src="https://www.youtube.com/embed/uzP1QQEsOS4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+        
+        <div className="row col-12 mt-4 mb-0 pb-0">
+          <p className="mx-auto d-block text-dark text-dark lead"><b>Playlist:</b></p>
+        </div>
+        
+        <div className="row mx-0 col-12">          
+          <iframe 
+            className="mx-auto d-block mb-4" width="620" height="315" src="https://www.youtube.com/embed/LfCi4u26HHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+
+        {/*************************************Ensayos */}
+
+        <div className="row col-12 mt-4 mb-0 pb-0">
+          <p className="mx-auto d-block text-dark text-dark lead"><b>Ensayos:</b></p>
+        </div>
+        
+        <div className="row mx-0 col-12">          
+          <iframe 
+            className="mx-auto d-block" width="620" height="420" src="https://www.youtube.com/embed/pOQszYIKtp0" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen="true">
           </iframe>
         </div>
 
