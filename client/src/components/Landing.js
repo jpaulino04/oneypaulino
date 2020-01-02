@@ -28,7 +28,7 @@ class Landing extends Component {
             <iframe 
               className="mx-auto d-block mb-0 text-center"
               src="https://embed.spotify.com/follow/1/?uri=spotify:artist:2qlwghSoPrDUq6HixTnUd0&size=detail&theme=light" 
-              width="200" height="66" scrolling="no" frameborder="0"  allowtransparency="true">              
+              width="240" height="66" scrolling="no" frameborder="0"  allowtransparency="true">              
             </iframe>            
           </div>
 
